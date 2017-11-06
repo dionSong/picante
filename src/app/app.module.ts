@@ -11,14 +11,16 @@ import { HttpModule } from "@angular/http";
 
 // Personal Components
 import { SingleComponent } from './components/single/single.component';
-import { ChilisComponent} from './components/chilis/chilis.component'
+import { ChilisComponent} from './components/chilis/chilis.component';
+import { ChiliFormComponent } from './components/chili-form/chili-form.component'
 
 
 @NgModule({
   declarations: [
     AppComponent,
     SingleComponent,
-    ChilisComponent
+    ChilisComponent,
+    ChiliFormComponent
     
   ],
   imports: [

@@ -10,8 +10,10 @@ import { ChilisService } from "../../services/chilis.service";
 export class ChilisComponent  {
   chilis: Array<any> = [];
 
-  constructor(private svc: ChilisService) { 
 
+  
+  constructor(private svc: ChilisService) { 
+    
   }
 
   ngOnInit() {
@@ -23,3 +25,4 @@ export class ChilisComponent  {
   }
 
 }
+
